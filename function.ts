@@ -42,5 +42,9 @@ heros.map(hero =>{
     return `hero is ${hero}`;
 });
 
+function consoleError(errmsg : string) : void{
+    console.log(errmsg);
+}
+
 export{}
 
