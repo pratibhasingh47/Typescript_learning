@@ -32,5 +32,15 @@ function getValue(val_1:number){
     return "200 OK";
 }
 
+const getHello = (s : string) : string =>{
+    return "";
+}
+
+const heros = [ "Thor" , "Spider-Man" , "Iron-Man"];
+
+heros.map(hero =>{
+    return `hero is ${hero}`;
+});
+
 export{}
 
