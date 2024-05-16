@@ -17,7 +17,9 @@ function getUpper(value : string){
 
 console.log(getUpper("pratibha"));
 
+
 function signUp(name : string , email : string, password: string){}
+
 
 let loginUser = (name: string , email : string, isPaid : boolean = false) =>{}
 
