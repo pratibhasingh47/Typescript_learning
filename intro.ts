@@ -28,6 +28,7 @@ console.log(userId.toLocaleString());
 
 let userid = 8787;
 userid.toFixed();
+
 let isLoggedIn : boolean = false;
 
 //Any ----> Should not be used in code 
