@@ -1,4 +1,4 @@
-function add2(num : number){
+function add2(num : number): number{
     return num+2;
     // return "Hello";
 }
@@ -24,6 +24,13 @@ function signUp(name : string , email : string, password: string){}
 let loginUser = (name: string , email : string, isPaid : boolean = false) =>{}
 
 loginUser("PS" , "ps@gmai.com");
+
+function getValue(val_1:number){
+    if(val_1 >5){
+        return true;
+    }
+    return "200 OK";
+}
 
 export{}
 
