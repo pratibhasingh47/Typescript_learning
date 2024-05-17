@@ -1,12 +1,12 @@
 console.log("Pratibha Singh");
 
-const user = { name: "Pratibha" , age:"19"}
+const user = { name: "Pratibha", age: "19" }
 
 console.log(user.name);
 console.log(user.age);
 
 
-let variableName : String = "This is my first typescript program";
+let variableName: String = "This is my first typescript program";
 
 console.log(variableName);
 
@@ -18,7 +18,7 @@ variableName.toLowerCase();
 
 // Number and boolean
 
-let userId : number = 4747;
+let userId: number = 4747;
 
 console.log(userId.toExponential());
 console.log(userId.valueOf());
@@ -29,15 +29,15 @@ console.log(userId.toLocaleString());
 let userid = 8787;
 userid.toFixed();
 
-let isLoggedIn : boolean = false;
+let isLoggedIn: boolean = false;
 
 //Any ----> Should not be used in code 
 let hero;
 
-function getHero(){
+function getHero() {
     return "Thor";
 }
 
 hero = getHero();
 
-export{}
+export { }
