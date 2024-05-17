@@ -21,5 +21,11 @@ let pratibha : Users | Admin ={
 pratibha = {userName :"debug" , id:147}
 
 function getdbid(id : number | string){
-    console.log()
+    console.log(`DB id is : ${id}`)
+
+    if(typeof id == "string"){
+        id.toLowerCase()
+    }
+    
+    
 }
