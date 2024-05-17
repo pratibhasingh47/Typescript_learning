@@ -1,17 +1,17 @@
-const superhero :string []= []
+const superhero: string[] = []
 
 // const heropower :number []= []
-const heropower : Array<number> = []
+const heropower: Array<number> = []
 
 type User = {
-    Name:string
-    isActive:boolean
+    Name: string
+    isActive: boolean
 }
 
-const allUsers : User[] = []
+const allUsers: User[] = []
 
-const MLModels : number[][] = [
-    [255,255,255],
+const MLModels: number[][] = [
+    [255, 255, 255],
     []
 ]
 
@@ -19,4 +19,4 @@ const MLModels : number[][] = [
 superhero.push("Bat-man")
 heropower.push(123)
 
-allUsers.push({Name : "hello",isActive:true});
+allUsers.push({ Name: "hello", isActive: true });
