@@ -52,5 +52,27 @@ function handleError(errmsg: string): never {
 
 }
 
+function getvalue(val:number){
+    if(val > 5){
+        return true;
+    }
+    return "200 Ok";
+}
+
+const gethello = (s : string) : string =>{
+    return ""
+}
+
+const heroes = [ "Thor" , "Iron-Man", "Bat-Man"]
+// const heroes = [ 1 , 2 , 3]  ---> Context Switching
+
+heroes.map((hero) : string =>{
+    return `hero is ${hero}`
+})
+
+function consoleerror(errmsg : string) : void{
+    console.log(errmsg);
+}
+
 export { }
 
