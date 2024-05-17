@@ -26,6 +26,12 @@ function getdbid(id : number | string){
     if(typeof id == "string"){
         id.toLowerCase()
     }
-    
-    
 }
+
+
+const data: (number | string )[] = [1,2,3,"4"]
+
+let pi: 3.14 = 3.14
+// pi=3.15
+
+let seatAllotment: "aisle" | "middle" | "window"
