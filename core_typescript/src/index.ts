@@ -38,6 +38,10 @@ class user2 {
         this.coursecount =courseNum
 
     }
+
+    private deleteToken(){
+        console.log("Deleted token");
+    }
 }
 
 const ps = new user1("ps.com", "prats")
