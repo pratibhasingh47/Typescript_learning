@@ -23,6 +23,12 @@ class user2 {
     get courseCount() {
         return this.coursecount;
     }
+    set cc(courseNum) {
+        if (courseNum <= 1) {
+            throw new Error("course count is 1");
+        }
+        this.coursecount = courseNum;
+    }
 }
 const ps = new user1("ps.com", "prats");
 // ps.city = "udaipur";

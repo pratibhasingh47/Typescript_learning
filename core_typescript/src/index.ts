@@ -29,6 +29,15 @@ class user2 {
     get courseCount():number{
         return this.coursecount
     }
+
+    set cc(courseNum: number){
+
+        if(courseNum <=1){
+            throw new Error("course count is 1")
+        }
+        this.coursecount =courseNum
+
+    }
 }
 
 const ps = new user1("ps.com", "prats")
