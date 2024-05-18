@@ -35,3 +35,4 @@ let pi: 3.14 = 3.14
 // pi=3.15
 
 let seatAllotment: "aisle" | "middle" | "window"
+seatAllotment = "aisle"
