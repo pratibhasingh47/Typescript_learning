@@ -13,11 +13,15 @@ class user2 {
     constructor(email, name) {
         this.email = email;
         this.name = name;
+        this.coursecount = 1;
         this.email = email;
         this.name = name;
     }
     get appleEmail() {
         return `apple ${this.email}`;
+    }
+    get courseCount() {
+        return this.coursecount;
     }
 }
 const ps = new user1("ps.com", "prats");

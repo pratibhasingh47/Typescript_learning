@@ -14,6 +14,9 @@ class user1 {
 
 }
 class user2 {
+
+    private coursecount = 1
+
     constructor(public email: string, public name: string) {
         this.email = email;
         this.name = name;
@@ -21,6 +24,10 @@ class user2 {
 
     get appleEmail():string{
         return `apple ${this.email}`
+    }
+
+    get courseCount():number{
+        return this.coursecount
     }
 }
 
