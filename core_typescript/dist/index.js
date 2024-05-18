@@ -6,7 +6,8 @@ class user1 {
         this.city = "";
         this.email = email;
         this.name = name;
+        this.city = "udaipur";
     }
 }
 const ps = new user1("ps.com", "prats");
-ps.city = "udaipur";
+// ps.city = "udaipur";
