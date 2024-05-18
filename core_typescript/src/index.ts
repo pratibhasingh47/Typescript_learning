@@ -10,6 +10,14 @@ class user1 {
         this.name = name
         this.city = "udaipur"
     }
+
+
+}
+class user2 {
+    constructor(public email: string, public name: string) {
+        this.email = email;
+        this.name = name;
+    }
 }
 
 const ps = new user1("ps.com", "prats")

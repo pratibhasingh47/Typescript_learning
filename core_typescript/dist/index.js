@@ -9,5 +9,13 @@ class user1 {
         this.city = "udaipur";
     }
 }
+class user2 {
+    constructor(email, name) {
+        this.email = email;
+        this.name = name;
+        this.email = email;
+        this.name = name;
+    }
+}
 const ps = new user1("ps.com", "prats");
 // ps.city = "udaipur";
