@@ -18,6 +18,10 @@ class user2 {
         this.email = email;
         this.name = name;
     }
+
+    get appleEmail():string{
+        return `apple ${this.email}`
+    }
 }
 
 const ps = new user1("ps.com", "prats")

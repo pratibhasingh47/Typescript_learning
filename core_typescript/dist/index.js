@@ -16,6 +16,9 @@ class user2 {
         this.email = email;
         this.name = name;
     }
+    get appleEmail() {
+        return `apple ${this.email}`;
+    }
 }
 const ps = new user1("ps.com", "prats");
 // ps.city = "udaipur";
