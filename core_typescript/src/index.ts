@@ -22,24 +22,24 @@ class user2 {
         this.name = name;
     }
 
-    get appleEmail():string{
+    get appleEmail(): string {
         return `apple ${this.email}`
     }
 
-    get courseCount():number{
+    get courseCount(): number {
         return this.coursecount
     }
 
-    set cc(courseNum: number){
+    set cc(courseNum: number) {
 
-        if(courseNum <=1){
+        if (courseNum <= 1) {
             throw new Error("course count is 1")
         }
-        this.coursecount =courseNum
+        this.coursecount = courseNum
 
     }
 
-    private deleteToken(){
+    private deleteToken() {
         console.log("Deleted token");
     }
 }
