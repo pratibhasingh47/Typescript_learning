@@ -15,7 +15,8 @@ class user1 {
 }
 class user2 {
 
-    private coursecount = 1
+    // private coursecount = 1
+    protected coursecount = 1
 
     constructor(public email: string, public name: string) {
         this.email = email;
@@ -41,6 +42,13 @@ class user2 {
 
     private deleteToken() {
         console.log("Deleted token");
+    }
+}
+
+class Subuser extends user2{
+    isFamiy:boolean=true
+    changeCourseCount(){
+        this.coursecount = 4   
     }
 }
 
