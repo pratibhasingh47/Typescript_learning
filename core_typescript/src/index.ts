@@ -45,10 +45,10 @@ class user2 {
     }
 }
 
-class Subuser extends user2{
-    isFamiy:boolean=true
-    changeCourseCount(){
-        this.coursecount = 4   
+class Subuser extends user2 {
+    isFamiy: boolean = true
+    changeCourseCount() {
+        this.coursecount = 4
     }
 }
 
