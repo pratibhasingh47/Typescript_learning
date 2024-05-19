@@ -12,3 +12,11 @@ function identity2 ( val : any):any{
 function identity3<Type>(val:Type):Type{
     return val
 }
+
+identity3(3)
+identity3("prats")
+identity3(true)
+
+function identity4<T>(val : T):T{
+    return val
+}
