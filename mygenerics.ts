@@ -35,7 +35,7 @@ function getSearch<T>(product: T[]): T {
 }
 
 
-const getMoreSearch = <T>(product: T[]): T => {
+const getMoreSearch = <T,>(product: T[]): T => {
     const myIndex = 4
     return product[myIndex]
 }
