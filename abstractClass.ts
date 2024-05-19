@@ -1,24 +1,24 @@
-abstract class TakePhotoo{
+abstract class TakePhotoo {
     constructor(
-        public cameraMode : string,
-        public filter : string
-    ){}
+        public cameraMode: string,
+        public filter: string
+    ) { }
 
-    abstract getSepia() :void
+    abstract getSepia(): void
 
-    getReelTime():number{
+    getReelTime(): number {
         return 7
     }
 }
 
 
-class Instagramm extends TakePhotoo{
+class Instagramm extends TakePhotoo {
     constructor(
-        public cameraMode :string,
-        public filter : string,
-        public burst : number
-    ){
-        super(cameraMode,filter)
+        public cameraMode: string,
+        public filter: string,
+        public burst: number
+    ) {
+        super(cameraMode, filter)
     }
 
     getSepia(): void {
@@ -26,4 +26,4 @@ class Instagramm extends TakePhotoo{
     }
 }
 
-const prats = new Instagramm("test" , "test" , 3)
+const prats = new Instagramm("test", "test", 3)
