@@ -27,3 +27,15 @@ interface bottle {
 }
 
 // identity4<bottle>({})
+
+
+function getSearch<T>(product : T[]):T{
+    const myIndex = 3
+    return product[myIndex]
+}
+
+
+const getMoreSearch = <T>(product : T[]):T =>{
+    const myIndex = 4
+    return product[myIndex]
+}
