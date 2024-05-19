@@ -13,6 +13,7 @@ class user2 {
     constructor(email, name) {
         this.email = email;
         this.name = name;
+        // private coursecount = 1
         this.coursecount = 1;
         this.email = email;
         this.name = name;
@@ -31,6 +32,15 @@ class user2 {
     }
     deleteToken() {
         console.log("Deleted token");
+    }
+}
+class Subuser extends user2 {
+    constructor() {
+        super(...arguments);
+        this.isFamiy = true;
+    }
+    changeCourseCount() {
+        this.coursecount = 4;
     }
 }
 const ps = new user1("ps.com", "prats");
