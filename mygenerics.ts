@@ -20,3 +20,10 @@ identity3(true)
 function identity4<T>(val : T):T{
     return val
 }
+
+interface bottle{
+    brand : string,
+    type : number
+}
+
+// identity4<bottle>({})
