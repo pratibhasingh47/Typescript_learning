@@ -56,3 +56,14 @@ function anotherFunction<T, U extends Database>(valone: T, valtwo: U): object {
 // anotherFunction(3,"4")
 // anotherFunction(3, 4.6)
 // anotherFunction(3, {})
+
+interface Quiz{
+    name: string,
+    type:string
+}
+
+interface Course{
+    name:string,
+    author:string,
+    subject:string
+}
