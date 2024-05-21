@@ -40,10 +40,10 @@ const getMoreSearch = <T,>(product: T[]): T => {
     return product[myIndex]
 }
 
-interface Database{
-    connection : string,
-    username : string,
-    password : string
+interface Database {
+    connection: string,
+    username: string,
+    password: string
 }
 
 function anotherFunction<T, U extends Database>(valone: T, valtwo: U): object {
@@ -57,21 +57,21 @@ function anotherFunction<T, U extends Database>(valone: T, valtwo: U): object {
 // anotherFunction(3, 4.6)
 // anotherFunction(3, {})
 
-interface Quiz{
+interface Quiz {
     name: string,
-    type:string
+    type: string
 }
 
-interface Course{
-    name:string,
-    author:string,
-    subject:string
+interface Course {
+    name: string,
+    author: string,
+    subject: string
 }
 
-class sellable<T>{
-    public cart:T[]=[]
+class sellable<T> {
+    public cart: T[] = []
 
-    addtocart(products : T){
+    addtocart(products: T) {
         this.cart.push(products)
     }
 }
