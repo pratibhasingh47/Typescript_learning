@@ -4,3 +4,11 @@ function detectTypes(val:number|string){
     }
     return val + 3
 }
+
+function provideID(id:string|null){
+    if( !id){
+        console.log("Please provide ID");
+        return
+    }
+    id.toLowerCase()
+}
