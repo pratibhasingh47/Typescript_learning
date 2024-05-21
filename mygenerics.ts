@@ -39,3 +39,13 @@ const getMoreSearch = <T,>(product: T[]): T => {
     const myIndex = 4
     return product[myIndex]
 }
+
+function anotherFunction<T,U extends number>(valone:T,valtwo:U):object{
+    return {
+        valone,
+        valtwo
+    }
+}
+
+// anotherFunction(3,"4")
+anotherFunction(3,4.6)
