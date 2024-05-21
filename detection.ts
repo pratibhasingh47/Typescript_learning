@@ -23,3 +23,20 @@ function printAll(strs: string | string[] | null) {
         console.log(strs);
     }
 }
+
+interface User{
+    name: string,
+    email:string
+}
+
+interface Admin{
+    name : string,
+    email:string,
+    isAdmin:boolean
+}
+
+function isAdmin(account:User|Admin){
+    if("isAdmin" in account){
+        return isAdmin
+    }
+}
