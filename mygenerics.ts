@@ -67,3 +67,8 @@ interface Course{
     author:string,
     subject:string
 }
+
+class sellable<T>{
+    public cart:T[]=[]
+    
+}
