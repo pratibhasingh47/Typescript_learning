@@ -24,19 +24,19 @@ function printAll(strs: string | string[] | null) {
     }
 }
 
-interface User{
+interface User {
     name: string,
-    email:string
+    email: string
 }
 
-interface Admin{
-    name : string,
-    email:string,
-    isAdmin:boolean
+interface Admin {
+    name: string,
+    email: string,
+    isAdmin: boolean
 }
 
-function isAdmin(account:User|Admin){
-    if("isAdmin" in account){
-        return isAdmin
+function isAdminAccount(account: User | Admin) {
+    if ("isAdmin" in account) {
+        return account.isAdmin
     }
 }
