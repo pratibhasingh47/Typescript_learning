@@ -70,5 +70,8 @@ interface Course{
 
 class sellable<T>{
     public cart:T[]=[]
-    
+
+    addtocart(products : T){
+        this.cart.push(products)
+    }
 }
