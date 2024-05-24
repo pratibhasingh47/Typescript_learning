@@ -61,4 +61,50 @@ type cardDetails = cardnum & cardDate & {
     cvv: number
 }
 
+type Person = {
+    name: string;
+    age: number;
+};
+
+function greet(person: Person) {
+    return "Hello " + person.name;
+}
+
+interface Person2 {
+    name: string;
+    age: number;
+}
+
+interface ReadonlyPerson {
+    readonly name: string;
+    readonly age: number;
+}
+
+let writablePerson: Person = {
+    name: "Person McPersonface",
+    age: 42,
+};
+
+
+let readonlyPerson: ReadonlyPerson = writablePerson;
+
+console.log(readonlyPerson.age); 
+writablePerson.age++;
+console.log(readonlyPerson.age);
+
+interface Colorful {
+    color: string;
+}
+
+interface Circle {
+    radius: number;
+}
+
+interface ColorfulCircle extends Colorful, Circle { }
+
+const cc: ColorfulCircle = {
+    color: "red",
+    radius: 42,
+};
+
 export { }
