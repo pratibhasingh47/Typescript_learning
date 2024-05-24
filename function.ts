@@ -64,7 +64,6 @@ const gethello = (s: string): string => {
 }
 
 const heroes = ["Thor", "Iron-Man", "Bat-Man"]
-// const heroes = [ 1 , 2 , 3]  ---> Context Switching
 
 heroes.map((hero): string => {
     return `hero is ${hero}`
