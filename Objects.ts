@@ -88,7 +88,7 @@ let writablePerson: Person = {
 
 let readonlyPerson: ReadonlyPerson = writablePerson;
 
-console.log(readonlyPerson.age); 
+console.log(readonlyPerson.age);
 writablePerson.age++;
 console.log(readonlyPerson.age);
 
@@ -106,5 +106,13 @@ const cc: ColorfulCircle = {
     color: "red",
     radius: 42,
 };
+
+class Point {
+    x = 0;
+    y = 0;
+}
+
+const pt = new Point();
+console.log(`${pt.x}, ${pt.y}`);
 
 export { }
