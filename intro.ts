@@ -31,7 +31,6 @@ userid.toFixed();
 
 let isLoggedIn: boolean = false;
 
-//Any ----> Should not be used in code 
 let hero;
 
 function getHero() {
